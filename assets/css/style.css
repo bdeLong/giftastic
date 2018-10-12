@@ -1,3 +1,6 @@
+body{
+  background-color: lavender;
+}
 .food-gif{
   height: 150px;
   margin-left: 5px;
@@ -23,4 +26,8 @@ p{
 
 #conjure-food{
   margin-top: 20px;
+}
+
+#submit-button{
+  margin-top: 10px;
 }
