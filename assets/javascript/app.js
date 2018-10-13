@@ -48,11 +48,13 @@ $(document).ready(function () {
       $("#gif-buttons").append(newButton);
     }
   };
-  // function that pushes value of input field to the array and creates new buttons when user hits "enter" or clicks the "conjure" button
+  // function that pushes value of input field to the array and creates new buttons when user hits "enter" or clicks the "conjure" button. User can't submit empty input or items already in array.
   $("#submit-button").on("click", function (event) {
     event.preventDefault();
-    var newFood = $("#food-input").val().trim();
-    foodArray.push(newFood);
+    var newFood = $("#food-input").val().trim().toLowerCase();
+    if (newFood !== "" && foodArray.indexOf(newFood) === -1) {
+      foodArray.push(newFood);
+    }
     createButtons();
     $("#food-input").blur();
   });
