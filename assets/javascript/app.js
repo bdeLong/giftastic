@@ -4,7 +4,7 @@ $(document).ready(function () {
   // function that makes a request to giphy API based on button's data-food attribute
   function grabFoodGif() {
     var foodItem = $(this).attr("data-food");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
       foodItem + "&api_key=68S60hcbZCMYYekjvRJh81WGjQjLtHCW&limit=10";
 
     $.ajax({
