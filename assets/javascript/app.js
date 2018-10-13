@@ -1,6 +1,6 @@
 $(document).ready(function () {
   // initialize starting array of items we'll use to pull gifs.
-  var foodArray = ["Hot Dogs", "Burgers", "Pizza", "Fruit", "Soup", "Desserts", "Salads", "Appetizers", "Sandwiches"];
+  var foodArray = ["hot dogs", "burgers", "pizza", "fruit", "soup", "desserts", "salads", "appetizers", "sandwiches"];
   // function that makes a request to giphy API based on button's data-food attribute
   function grabFoodGif() {
     var foodItem = $(this).attr("data-food");
