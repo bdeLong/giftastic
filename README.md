@@ -22,4 +22,4 @@ There is also a form on the page that takes the value from user's input box and 
 
 ![giftastic starting screen](assets/images/Button-added.png)
 
-Try out the app[HERE](https://bdelong.github.io/giftastic/)
+Try out the app [HERE](https://bdelong.github.io/giftastic/)!
