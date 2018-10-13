@@ -1,5 +1,5 @@
 body{
-  background-color: lavender;
+  background: url("../images/background.jpg")
 }
 .food-gif{
   height: 150px;
@@ -30,4 +30,8 @@ p{
 
 #submit-button{
   margin-top: 10px;
+}
+
+h5, h6, p{
+  color: white;
 }
